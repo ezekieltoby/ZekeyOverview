@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tobiz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+.mySlides {display:none}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>TOBI</b>ZCO</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Services</a>
+         <a href="#appointment" class="w3-bar-item w3-button">Appointment</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <!--<img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">-->
+  <div class="w3-content" style="max-width:1100px;margin-top:60px;"> <!-- margin-bottom:80px-->
+
+  <div class="w3-panel">
+    <h1><b>TOBIZCO</b></h1>
+    <p>by Ezekiel Oluwatobi Akande</p>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="../ZekeyDb/Photos/im1.jpg" style="width:100%" >
+      <div class="w3-display-bottomleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Fanimorously Enticing</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="../ZekeyDb/Photos/im2.jpg" style="width:100%">
+      <div class="w3-display-bottomright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Jzholujzha Sweet</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="../ZekeyDb/Photos/im3.jpg" style="width:100%">
+      <div class="w3-display-bottomright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Velsvoso Interesting</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>TOBIZ</b></span> <span class="w3-hide-small w3-text-dark-grey">CO</span></h1>
+  </div>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Services</h3>
+  </div>
+
+  <div class="w3-row-padding"> 
+    <div class="w3-col l3 m6 w3-margin-bottom"> 
+    <a href="#appointment">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Smart Home</div>
+        <img src="../ZekeyDb/Photos/im4.jpg" alt="House" style="width:100%">
+      </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <a href="#appointment">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Furniture Assemble/Mounting</div>
+        <img src="../ZekeyDb/Photos/tv1.png" alt="House" style="width:100%">
+      </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <a href="#appointment">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Music/sound Production</div>
+        <img src="../ZekeyDb/Photos/abf1.jpg" alt="House" style="width:100%">
+      </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <a href="#appointment">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Device Setup/Repair</div>
+        <img src="../ZekeyDb/Photos/dsz.jpg" alt="House" style="width:100%">
+      </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <a href="#appointment">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Party Dj</div>
+        <img src="../ZekeyDb/Photos/dj4.jpg" alt="House" style="width:99%">
+      </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+      <a href="#appointment">
+        <div class="w3-display-topleft w3-black w3-padding">Car Radio Service</div>
+        <img src="../ZekeyDb/Photos/car.png" alt="House" style="width:99%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+      <a href="#appointment">
+        <div class="w3-display-topleft w3-black w3-padding">Web Design</div>
+        <img src="../ZekeyDb/Photos/web1.jpg" alt="House" style="width:99%">
+        </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+      <a href="#appointment">
+        <div class="w3-display-topleft w3-black w3-padding">Photography/Videography</div>
+        <img src="../ZekeyDb/Photos/vphoto.png" alt="House" style="width:99%">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Tobizco is an abbreviation for TOBI'S Business Company. Tobizco is intended to showcase all the services we provide and to give our customers
+    a better experience requesting for such services. The services are broad and some are distinctly different
+    so we decided to group them into one and make them visually pleasing, user-friendly and less time consuming
+    because we know that making phonecalls to request a simple service could be very uncomfortable due to the
+    fact that the customer would have to wait a long time for an agent to pick the call.
+    </p>
+  </div>
+ <form method="POST" action="../ZekeyDb/Tobizservices.php">
+ <h3 id = appointment>Schedule an appointment below</h3>
+            <p>Required fields are marked with an asterisk (*)</p>
+            <fieldset><legend><b>Demorgraphic Information</b></legend>
+            
+            
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="firstname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="pnumber">phone number:</label><br>
+  <input type="text" id="pnumber" name="pnumber"><br>
+  <br>
+            <label>*Gender:
+                <input type="radio" name="gender" value ="Female"> Female
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name= "gender" value="Other"> Other
+            </label><br><br>
+            <label for="school">*What do you need help with: </label>
+                <input type="text" name="services" list="serviceList" required="required">
+                <datalist id="serviceList">
+                    <option value="Set Up" label="Setting up a device">
+                    <option value="Mounting" label="Mounting a device/curtains">
+                    <option value="Assembling" label="Assembling a furniture">
+                    <option value="Smart home" label="Smart home setup">
+                    <option value="Car Radio" label="Replacing your radio">
+                    <option value="Dj party" label="Looking for dj or Renting a speaker">
+                    <option value="Web Design" label="Creating your website">
+                    <option value="Video production" label="Recording or renting a camera">
+                    <option value="Photography" label="Taking or Printing a picture">
+                    <option value="Other(Specify)" label="Other(Specify)"></option>
+                </datalist><br><br>
+
+            
+            <select size="1" name="when">
+                <option>What time would you prefer to reach out to you?</option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+            </select><br>
+<br/>
+ <select size="1" name="freedays">
+                    <option>choose your most less busy day of the week</option>
+                    <option value="monday">monday</option>
+                    <option value="tuesday">tuesday</option>
+                    <option value="wednesday">wednesday</option>
+                    <option value="thursday">thursday</option>
+                    <option value="friday">friday</option>
+                    <option value="saturday">saturday</option>
+                    <option value="Sunday">Sunday</option>
+                    <option value="varies">It varies</option>
+                </select>
+            <br>
+            <br>
+            </fieldset>  
+            <fieldset><legend><b>Branding Selection</b></legend>
+                <table border="3">
+                    <tr>
+                        <td>Which of this brands would you prefer to use as a smart device (Ai)?</td>
+                        <td><input type="checkbox" name="ai1" value="Apple">Apple</td>
+                        <td><input type="checkbox" name="ai2" value="Google">Google</td>
+                        <td><input type="checkbox" name="ai3" value="Amazon">Amazon</td>
+                        <td><input type="checkbox" name="ai4" value="Bixby">Bixby</td>
+                        <td><input type="checkbox" name="ai5" value="Cortana">Cortana</td>
+                    </tr>
+                    <tr>
+                    </table><br>
+
+            </fieldset>
+             <input type = "submit" name = "submit" value = "submit me" ><br/>
+            <input type="reset" value="Reset">
+  </form>
+  <br/>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="../ZekeyDb/Photos/Prozeke.jpg" alt="John" style="width:100%">
+      <h3>Ezekiel O. Akande</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Also the owner of zekeysmoothness platform. Tobiz is a short term for Tobi's Business which is platform that offers
+      various opportuinities for diversified services. We give our customers the best experience.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="../ZekeyDb/Photos/im13.jpg" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="http://ezekieltoby.altervista.org/mywebsite/mywebsite.php?_sm_au_=iVVsmNQ5JJDlRVNJsQ10fKsjB78KF" 
+  title="W3.CSS" target="_blank" class="w3-hover-text-green">Prince Ezekiel Oluwatobiloba Akande</a></p>
+</footer>
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+</body>
+<?php
+$servername = "localhost";
+    $username = "ezekieltoby";
+    $password = "";
+    $dbname = "my_ezekieltoby";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+if ($conn->query($sql) === TRUE) {
+  echo "New record created successfully";
+} else {
+  echo "" . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
+<?php
+require_once "../My-DB-Functions.php"; //can be used multiple times
+$conn = My_Connect_DB();
+$fname = $lname = $email = $gender = $pnumber = $services = $when =
+$ai = $freedays ="";
+
+ function validate_input($input)
+{
+	$input = trim($input); //remove spaces ltrim
+    $input = htmlspecialchars($input);
+    return $input; //displays
+}
+?>
+<?php
+if (isset($_POST["submit"])) 
+{
+$fname = validate_input($_POST["firstname"]);
+$lname = validate_input($_POST["lname"]);
+$email = validate_input($_POST["email"]);
+$gender = validate_input($_POST["gender"]);
+$pnumber = validate_input($_POST["pnumber"]);
+$services = validate_input($_POST["services"]);
+$ai = validate_input($_POST["ai"]);
+$when = validate_input($_POST["when"]);
+$freedays = validate_input($_POST["freedays"]);
+echo "Thanks for submiting!";
+
+$conn = My_Connect_DB();    
+$sql = "INSERT INTO EZservices (firstname, lastname, email, gender, phonenumber, ai, services, availability)
+VALUES ('".$_POST["lname"]."','".$_POST["firstname"]."','".$_POST["email"]."','".$_POST["gender"]."','".$_POST["pnumber"]."', 
+'".$_POST["ai1"].", ".$_POST["ai2"].",".$_POST["ai3"].",".$_POST["ai4"].",".$_POST["ai5"]."', '".$_POST["services"]."',
+'".$_POST["freedays"]." ".$_POST["when"]."')";
+     My_SQL_EXE($conn, $sql);
+      $sql = "SELECT * FROM EZservices;";
+      Run_Select_Show_Result($conn, $sql);
+      mysqli_close($conn);
+}
+else "please provide the required information";
+
+?>
+</html>
